@@ -15,12 +15,12 @@ public class TriggerPlayAnimation : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        _animator.enabled = true;
+        _animator.enabled = false;
     }
 
     void OnTriggerExit(Collider other)
     {
-        _animator.enabled = false;
+        _animator.enabled = true;
     }
 
 
